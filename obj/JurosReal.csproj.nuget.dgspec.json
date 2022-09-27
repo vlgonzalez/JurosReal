@@ -47,6 +47,26 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2-beta2, )"
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            },
+            "Refit.HttpClientFactory": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            },
+            "Refit.Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.2, )"
             }
           },
           "imports": [
