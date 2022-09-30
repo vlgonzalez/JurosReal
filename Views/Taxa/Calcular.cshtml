@@ -9,10 +9,10 @@
     
 
 <h2>Retorno do investimento</h2>
-<p>Valor aplicado =  @Html.DisplayFor(model => model.ValorInvestido)</p>
-<p>Valor do Retorno bruto =  @Html.DisplayFor(model => model.RetornoBruto)</p>
-<p>Valor do Retorno liquido =  @Html.DisplayFor(model => model.RetornoLiquido)</p>
-<p>Valor do Retorno real =  @Html.DisplayFor(model => model.RetornoReal)</p>
+<p>Valor aplicado = R @Html.DisplayFor(model => model.ValorInvestido)</p>
+<p>Valor do Retorno bruto = R @Html.DisplayFor(model => model.RetornoBruto)</p>
+<p>Valor do Retorno liquido = R @Html.DisplayFor(model => model.RetornoLiquido)</p>
+<p>Valor do Retorno real = R @Html.DisplayFor(model => model.RetornoReal)</p>
 
 <h2>Definições </h2>
 <p>Inflação: é um aumento geral nos preços de bens e serviços em uma economia.Resumindo, sabe aquele churrasco que ano passado você fazia com R$100,00, e hoje faz com R$120,00, esse aumento de preços é a inflação, que com a mesma quantidade de dinheiro de um período passado você consegue comprar menos. </p>
@@ -24,5 +24,7 @@ Lembrando que o IR é regressivo, ou seja quanto mais tempo você deixar o seu d
 <p>Até 361 dias até 720 dias (24 meses) = IR de 17,5% sobre o lucro</p>
 <p>Acima de 720 dias (mais de 24 meses) = IR de 15,0% sobre o lucro</p>
 <p>Retorno real: Valor liquido do seu investimento descontando a inflação do período da sua aplicação.Ou seja já descontado a desvalorização do seu dinheiro durante  </p>
+
+<a asp-action="Index">Voltar</a>
 
  </body>   
