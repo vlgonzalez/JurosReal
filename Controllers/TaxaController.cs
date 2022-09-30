@@ -15,7 +15,7 @@ namespace JurosReal.Controllers
                return View();
              }
         
-        public async Task<ActionResult> Buscar(Investimento investe )
+        public async Task<ActionResult> Calcular(Investimento investe )
         {
             
             using HttpClient client = new()
@@ -30,17 +30,20 @@ namespace JurosReal.Controllers
             {
             investe.Ir = 0.775;
              
-             } else if (investe.Meses <= 12)
-             {
+            } 
+             else if (investe.Meses <= 12)
+            {
                 investe.Ir = 0.80;
 
-             }else if (investe.Meses <= 24)
-             {
+            }
+             else if (investe.Meses <= 24)
+            {
                 investe.Ir = 0.825;
-             }else
-             {
+            }
+             else
+            {
                 investe.Ir = 0.85;
-             }
+            }
             
             investe.Rentabilidade =((((taxa.Valor/100)/12)*investe.Meses) * investe.ValorInvestido);
             investe.RetornoBruto =   investe.Rentabilidade + investe.ValorInvestido;

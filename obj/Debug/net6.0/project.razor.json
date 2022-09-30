@@ -16303,6 +16303,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\vinic\\Documents\\Cursos\\.NET - backup\\JurosReal\\Views\\Taxa\\Calcular.cshtml",
+      "TargetPath": "Views\\Taxa\\Calcular.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\vinic\\Documents\\Cursos\\.NET - backup\\JurosReal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -16325,11 +16330,6 @@
     {
       "FilePath": "c:\\Users\\vinic\\Documents\\Cursos\\.NET - backup\\JurosReal\\Views\\Taxa\\Index.cshtml",
       "TargetPath": "Views\\Taxa\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\vinic\\Documents\\Cursos\\.NET - backup\\JurosReal\\Views\\Taxa\\Buscar.cshtml",
-      "TargetPath": "Views\\Taxa\\Buscar.cshtml",
       "FileKind": "mvc"
     },
     {

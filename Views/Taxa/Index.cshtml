@@ -2,7 +2,7 @@
 @using System.Data
 
 @{
-    ViewData["Titele"] = "Juros Real";
+    ViewData["Titele"] = "Calculadora de rentabilidade";
 }
 
 <html>
@@ -16,7 +16,7 @@
 <h2>Calculadora</h2>
 <p>Informe a taxa do seu investimento, o valor aplicado, e os meses da aplicação</p>
 <div>
-<form asp-controller="Taxa" asp-action="Buscar" method="get">
+<form asp-controller="Taxa" asp-action="Calcular" method="get">
 <select name="NomeTaxa" id="NomeTaxa">
     <option value= "CDI"> CDI </option>
     <option value= "Selic"> Selic </option>

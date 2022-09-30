@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net6.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/a8b533ae-9ba5-40e2-9b62-aabb74a09d27/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/CalculadoraRenda"
+}

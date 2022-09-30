@@ -8,19 +8,19 @@ namespace JurosReal.Models
 {
     public class Investimento :TaxaView
     {
-        [DataType(DataType.Currency)]
+       [DataType(DataType.Currency)]
        public double ValorInvestido { get; set; }
 
        public double Meses { get; set; }
-        [DataType(DataType.Currency)]
+       [DataType(DataType.Currency)]
        public double RetornoBruto { get; set; }
-        [DataType(DataType.Currency)]
-      public double RetornoLiquido { get; set; }
-      [DataType(DataType.Currency)]
-      public double RetornoReal { get; set; }
-        [DataType(DataType.Currency)]
-      public double Rentabilidade { get; set; }
+       [DataType(DataType.Currency)]
+       public double RetornoLiquido { get; set; }
+       [DataType(DataType.Currency)]
+       public double RetornoReal { get; set; }
+       [DataType(DataType.Currency)]
+       public double Rentabilidade { get; set; }
 
-      public double Ir { get; set; }
+       public double Ir { get; set; }
     }
 }
