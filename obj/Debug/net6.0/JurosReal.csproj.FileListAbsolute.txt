@@ -1,10 +1,10 @@
+C:\Users\vinic\Documents\Cursos\.NET - backup\JurosReal\bin\Debug\net6.0\JurosReal.exe
+C:\Users\vinic\Documents\Cursos\.NET - backup\JurosReal\bin\Debug\net6.0\JurosReal.dll
 C:\Users\vinic\Documents\Cursos\.NET - backup\JurosReal\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\vinic\Documents\Cursos\.NET - backup\JurosReal\bin\Debug\net6.0\appsettings.json
 C:\Users\vinic\Documents\Cursos\.NET - backup\JurosReal\bin\Debug\net6.0\JurosReal.staticwebassets.runtime.json
-C:\Users\vinic\Documents\Cursos\.NET - backup\JurosReal\bin\Debug\net6.0\JurosReal.exe
 C:\Users\vinic\Documents\Cursos\.NET - backup\JurosReal\bin\Debug\net6.0\JurosReal.deps.json
 C:\Users\vinic\Documents\Cursos\.NET - backup\JurosReal\bin\Debug\net6.0\JurosReal.runtimeconfig.json
-C:\Users\vinic\Documents\Cursos\.NET - backup\JurosReal\bin\Debug\net6.0\JurosReal.dll
 C:\Users\vinic\Documents\Cursos\.NET - backup\JurosReal\bin\Debug\net6.0\JurosReal.pdb
 C:\Users\vinic\Documents\Cursos\.NET - backup\JurosReal\bin\Debug\net6.0\Humanizer.dll
 C:\Users\vinic\Documents\Cursos\.NET - backup\JurosReal\bin\Debug\net6.0\System.Net.Http.Formatting.dll
