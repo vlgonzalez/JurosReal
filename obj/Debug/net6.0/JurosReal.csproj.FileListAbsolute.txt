@@ -64,3 +64,5 @@ C:\Users\vinic\Documents\Cursos\.NET - backup\JurosReal\obj\Debug\net6.0\JurosRe
 C:\Users\vinic\Documents\Cursos\.NET - backup\JurosReal\obj\Debug\net6.0\JurosReal.genruntimeconfig.cache
 C:\Users\vinic\Documents\Cursos\.NET - backup\JurosReal\obj\Debug\net6.0\ref\JurosReal.dll
 C:\Users\vinic\Documents\Cursos\.NET - backup\JurosReal\bin\Debug\net6.0\RestSharp.dll
+C:\Users\vinic\Documents\Cursos\.NET - backup\JurosReal\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\vinic\Documents\Cursos\.NET - backup\JurosReal\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

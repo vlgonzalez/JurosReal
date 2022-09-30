@@ -1,0 +1,47 @@
+
+@using System.Data
+@model JurosReal.Models.Investimento
+{
+    
+}
+
+@{
+    ViewData["Title"] ="Taxa";
+}
+
+<thead>
+    <tr>
+        <th>
+            
+        </th>
+        <td>
+               
+            </td>
+        <th>
+            @Html.DisplayNameFor(model => model.Rentabilidade)
+        </th>
+        <td>
+                @Html.DisplayFor(model => model.Rentabilidade)
+            </td>
+        <th>
+            @Html.DisplayNameFor(model => model.RetornoBruto)
+        </th>
+        <td>
+                @Html.DisplayFor(model => model.RetornoBruto)
+        <th>
+            @Html.DisplayNameFor(model => model.RetornoLiquido)
+        </th>
+        <td>
+                @Html.DisplayFor(model => model.RetornoLiquido)
+
+        <th>
+            @Html.DisplayNameFor(model => model.RetornoReal)
+        </th>
+        <td>
+                @Html.DisplayFor(model => model.RetornoReal)
+            </td>
+            </td>
+            </td>
+        <th></th>
+    </tr>
+</thead>

@@ -4,16 +4,14 @@ using System.Linq;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-
 namespace JurosReal.Models
 {
-    public class TaxaDeJuros
-    {   
+    public class TaxaView
+    {
         [JsonPropertyName("nome")]
-        public string Nome { get; set; }
+        public string NomeTaxa { get; set; }
 
         [JsonPropertyName("valor")]
         public double Valor { get; set; }
-        
     }
 }
