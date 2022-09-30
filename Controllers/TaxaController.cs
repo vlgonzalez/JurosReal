@@ -46,37 +46,11 @@ namespace JurosReal.Controllers
             investe.RetornoBruto =   investe.Rentabilidade + investe.ValorInvestido;
             investe.RetornoLiquido = investe.Rentabilidade * investe.Ir + investe.ValorInvestido;
             investe.RetornoReal = investe.RetornoLiquido -(((taxaIpca.Valor/100)/12)*investe.Meses);
-
+            
             return View(investe);
                  
         }
  
-
-        
-
-
-
-
-
-        //public ActionResult Buscar(string sigla)
-        //{
-
-            
-               
-            // StreamReader r = new StreamReader($"https://brasilapi.com.br/api/taxas/v1/selic");
-            // string jsonString = r.ReadToEnd();
-            // TaxaView selic = JsonConvert.DeserializeObject<TaxaView>(jsonString); 
-
-            // StreamReader i = new StreamReader($"https://brasilapi.com.br/api/taxas/v1/IPCA");
-            // string jsonStringi = i.ReadToEnd();
-            // TaxaView Ipca = JsonConvert.DeserializeObject<TaxaView>(jsonStringi); 
-
-            // StreamReader c = new StreamReader("https://brasilapi.com.br/api/taxas/v1/cdi");
-            // string jsonStringc = c.ReadToEnd();
-            // TaxaView CDI = JsonConvert.DeserializeObject<TaxaView>(jsonStringc);
-
-           // return View(CDI);
-        //}
     }    
     
     }
